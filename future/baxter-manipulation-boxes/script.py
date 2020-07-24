@@ -16,6 +16,8 @@ from hpp.corbaserver import loadServerPlugin
 loadServerPlugin ("corbaserver", "manipulation-corba.so")
 Client ().problem.resetProblem ()
 
+from hpp.benchmark import Toto
+
 parser = ArgumentParser()
 parser.add_argument('-N', default=20, type=int)
 parser.add_argument('--display', action='store_true')
@@ -197,6 +199,9 @@ for i in range (args.N):
     n = ps.numberNodes ()
     totalNumberNodes += n
     print ("Number nodes: " + str(n))
+
+for i in range (ps.numberPaths()):
+  toto = Toto ()
 
 if args.N != 0:
   print ("Average time: " + str ((totalTime.seconds+1e-6*totalTime.microseconds)/float (args.N)))

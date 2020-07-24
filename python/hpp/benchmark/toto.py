@@ -1,0 +1,2 @@
+class Toto:
+    pass
