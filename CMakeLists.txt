@@ -90,7 +90,7 @@ install(FILES
   future/romeo-placard/script.py
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/romeo-placard)
 
-ADD_SUBDIRECTORY(src)
+#ADD_SUBDIRECTORY(src)
 
 file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/images/cpp)
 if(false)
@@ -134,4 +134,3 @@ add_custom_target(images DEPENDS ${ALL_GENERATED_IMAGES})
 add_dependencies(doc images)
 endif()
 ADD_SUBDIRECTORY(python)
-SETUP_HPP_PROJECT_FINALIZE()
