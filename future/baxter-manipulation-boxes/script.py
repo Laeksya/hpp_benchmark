@@ -186,6 +186,11 @@ ps.addGoalConfig (q_goal_proj)
 import datetime as dt
 totalTime = dt.timedelta (0)
 totalNumberNodes = 0
+
+# Remove joint bound validation
+ps.client.problem.clearConfigValidations()
+ps.addConfigValidation("CollisionValidation")
+
 for i in range (args.N):
     ps.clearRoadmap ()
     ps.resetGoalConfigs ()
