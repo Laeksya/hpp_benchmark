@@ -16,8 +16,9 @@ The script will generate a bunch of csv files in the output directory (see `--ou
 To save the benchmarks, commit the output directory.
 
 ## Running the Python benchmarks
-
- <p> `<strong>./generate_benchmark.py </strong>    new_directory_name`</p>
+```
+ ./generate_benchmark.py  new_directory_name
+```
 
 The format's name of the argument `new_directory_name` is: `year-month-day`
 This program creates copy of the directory `future` into new directory which contains the benchmarks.
