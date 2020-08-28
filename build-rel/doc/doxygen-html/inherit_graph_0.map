@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classhpp_1_1benchmark_1_1BenchmarkBase.html" title="Base class for all benchmarks. You should not inherit from this class directly but rather BenchmarkCa..." alt="" coords="5,110,224,137"/>
+<area shape="rect" id="node2" href="$classhpp_1_1benchmark_1_1BenchmarkCase.html" title="Base class for benchmarks which have a single case. " alt="" coords="272,78,492,105"/>
+<area shape="rect" id="node5" href="$classhpp_1_1benchmark_1_1BenchmarkNCase.html" title="Base class for benchmarks which have a several cases. " alt="" coords="287,132,477,173"/>
+<area shape="rect" id="node3" href="$classhpp_1_1benchmark_1_1hrp2__on__the__ground.html" title="HRP2 on the ground. " alt="" coords="548,5,696,47"/>
+<area shape="rect" id="node4" href="$classhpp_1_1benchmark_1_1pr2__in__iai__maps.html" title="PR2 in IAI maps. " alt="" coords="551,71,693,112"/>
+<area shape="rect" id="node6" href="$classhpp_1_1benchmark_1_1implicit__versus__explicit.html" title="Comparison between implicit and explicit constraints. " alt="" coords="540,136,704,177"/>
+</map>

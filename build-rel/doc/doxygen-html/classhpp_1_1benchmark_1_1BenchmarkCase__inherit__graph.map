@@ -1,0 +1,5 @@
+<map id="hpp::benchmark::BenchmarkCase" name="hpp::benchmark::BenchmarkCase">
+<area shape="rect" id="node3" href="$classhpp_1_1benchmark_1_1hrp2__on__the__ground.html" title="HRP2 on the ground. " alt="" coords="5,155,153,196"/>
+<area shape="rect" id="node4" href="$classhpp_1_1benchmark_1_1pr2__in__iai__maps.html" title="PR2 in IAI maps. " alt="" coords="178,155,319,196"/>
+<area shape="rect" id="node2" href="$classhpp_1_1benchmark_1_1BenchmarkBase.html" title="Base class for all benchmarks. You should not inherit from this class directly but rather BenchmarkCa..." alt="" coords="54,5,273,32"/>
+</map>

@@ -1,2 +1,2 @@
-from toto import Toto
+from path_checker import PathChecker
 

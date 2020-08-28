@@ -1,0 +1,4 @@
+<map id="hpp::benchmark::BenchmarkNCase" name="hpp::benchmark::BenchmarkNCase">
+<area shape="rect" id="node3" href="$classhpp_1_1benchmark_1_1implicit__versus__explicit.html" title="Comparison between implicit and explicit constraints. " alt="" coords="33,169,197,211"/>
+<area shape="rect" id="node2" href="$classhpp_1_1benchmark_1_1BenchmarkBase.html" title="Base class for all benchmarks. You should not inherit from this class directly but rather BenchmarkCa..." alt="" coords="5,5,224,32"/>
+</map>

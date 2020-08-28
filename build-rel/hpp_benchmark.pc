@@ -1,0 +1,22 @@
+prefix=/home/laledagale/devel/hpp/install
+exec_prefix=/home/laledagale/devel/hpp/install
+libdir=/home/laledagale/devel/hpp/install/lib
+bindir=/home/laledagale/devel/hpp/install/bin
+pkglibdir=/home/laledagale/devel/hpp/install/lib/hpp_benchmark
+includedir=/home/laledagale/devel/hpp/install/include
+datarootdir=/home/laledagale/devel/hpp/install/share
+pkgdatarootdir=/home/laledagale/devel/hpp/install/share
+docdir=
+doxygendocdir=
+
+Name: hpp_benchmark
+Description: Benchmarks for humanoid path planner platform.
+URL: https://github.com/humanoid-path-planner/hpp_benchmark
+Version: 0.1.0
+Requires: eigen3 >= 3.0.5, urdfdom >= 0.2.0, hpp-fcl >= 1.4.0, hpp-util >= 3.2, pinocchio >= 2.1.10, omniORB4, omniORB4 >= 4.1.4, omniDynamic4 >= 4.1.4, openscenegraph >= 3.2, openthreads >= 2.6, openscenegraph-osgQt5, qgv, roboptim-trajectory >= 1, romeo_description
+Conflicts: 
+Libs: -L${libdir} 
+Libs.private: 
+Cflags:  -I${includedir}
+
+

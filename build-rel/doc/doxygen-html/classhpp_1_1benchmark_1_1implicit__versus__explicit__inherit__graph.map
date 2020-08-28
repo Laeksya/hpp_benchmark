@@ -1,0 +1,4 @@
+<map id="hpp::benchmark::implicit_versus_explicit" name="hpp::benchmark::implicit_versus_explicit">
+<area shape="rect" id="node2" href="$classhpp_1_1benchmark_1_1BenchmarkNCase.html" title="Base class for benchmarks which have a several cases. " alt="" coords="20,80,209,121"/>
+<area shape="rect" id="node3" href="$classhpp_1_1benchmark_1_1BenchmarkBase.html" title="Base class for all benchmarks. You should not inherit from this class directly but rather BenchmarkCa..." alt="" coords="5,5,224,32"/>
+</map>

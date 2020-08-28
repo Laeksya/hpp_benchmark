@@ -1,0 +1,4 @@
+INPUT = "/home/laledagale/devel/hpp/src/hpp_benchmark/src" "/home/laledagale/devel/hpp/src/hpp_benchmark/doc"
+FILE_PATTERNS = *.cc *.hh *.dox
+EXAMPLE_PATH = /home/laledagale/devel/hpp/src/hpp_benchmark
+IMAGE_PATH = /home/laledagale/devel/hpp/src/hpp_benchmark/build-rel/images

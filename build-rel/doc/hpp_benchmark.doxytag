@@ -1,0 +1,778 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<tagfile>
+  <compound kind="file">
+    <name>mainpage.dox</name>
+    <path>/home/laledagale/devel/hpp/src/hpp_benchmark/doc/</path>
+    <filename>mainpage_8dox</filename>
+  </compound>
+  <compound kind="file">
+    <name>benchmark.cc</name>
+    <path>/home/laledagale/devel/hpp/src/hpp_benchmark/src/</path>
+    <filename>benchmark_8cc</filename>
+    <includes id="benchmark_8hh" name="benchmark.hh" local="yes" imported="no">benchmark.hh</includes>
+    <class kind="class">NullStream</class>
+    <class kind="struct">Output</class>
+    <namespace>hpp</namespace>
+    <namespace>hpp::benchmark</namespace>
+    <member kind="define">
+      <type>#define</type>
+      <name>CHECK_REMAINING_ARGC</name>
+      <anchorfile>benchmark_8cc.html</anchorfile>
+      <anchor>aab7bd8135adf3e4bbb07784512f51122</anchor>
+      <arglist>(i, n, msg)</arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::map&lt; std::string, hpp::benchmark::BenchmarkBase * &gt;</type>
+      <name>Problems_t</name>
+      <anchorfile>benchmark_8cc.html</anchorfile>
+      <anchor>acabca8aa220e322712613c0ff99aa96d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>print_header</name>
+      <anchorfile>benchmark_8cc.html</anchorfile>
+      <anchor>a61887a1cf8f1624152186b9c74f295d2</anchor>
+      <arglist>(std::ostream &amp;os, const std::string &amp;status)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>dirExists</name>
+      <anchorfile>benchmark_8cc.html</anchorfile>
+      <anchor>a4dd48e89f4abe5802242de974827b255</anchor>
+      <arglist>(const char *d)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>registerBenchmark</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a8db4befb58f2401dffe5a1218e9ddb3b</anchor>
+      <arglist>(BenchmarkBase *p, const std::string &amp;name)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>stats</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>aacaa3d0ee2a3ded3b9f524c4fecab2d3</anchor>
+      <arglist>(result_t values, value_type &amp;mean, value_type &amp;std_dev)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>usage</name>
+      <anchorfile>benchmark_8cc.html</anchorfile>
+      <anchor>a7cac13da282785878351e0a820104851</anchor>
+      <arglist>(const char *name)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>main</name>
+      <anchorfile>benchmark_8cc.html</anchorfile>
+      <anchor>a3c04138a5bfe5d72780bb7e82a18e627</anchor>
+      <arglist>(int argc, char **argv)</arglist>
+    </member>
+    <member kind="variable">
+      <type>Problems_t</type>
+      <name>problems</name>
+      <anchorfile>benchmark_8cc.html</anchorfile>
+      <anchor>aa5b1773586a0854e052cd09822de0875</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>struct Output</type>
+      <name>output</name>
+      <anchorfile>benchmark_8cc.html</anchorfile>
+      <anchor>a03176ac516895caa0a0589d891702fc3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>benchmark.hh</name>
+    <path>/home/laledagale/devel/hpp/src/hpp_benchmark/src/</path>
+    <filename>benchmark_8hh</filename>
+    <class kind="class">hpp::benchmark::BenchmarkBase</class>
+    <class kind="class">hpp::benchmark::BenchmarkCase</class>
+    <class kind="class">hpp::benchmark::BenchmarkNCase</class>
+    <namespace>hpp</namespace>
+    <namespace>hpp::benchmark</namespace>
+    <member kind="define">
+      <type>#define</type>
+      <name>REGISTER</name>
+      <anchorfile>benchmark_8hh.html</anchorfile>
+      <anchor>afae2d2229eee31553e0fcc940216f13c</anchor>
+      <arglist>(CLASS, ID)</arglist>
+    </member>
+    <member kind="typedef">
+      <type>double</type>
+      <name>value_type</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a730b4c703dec218d1542542589601c91</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::vector&lt; value_type &gt;</type>
+      <name>result_t</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>add70145786a45fc34c5d5054311781a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::map&lt; std::string, result_t &gt;</type>
+      <name>results_t</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a1bf955b70dcea8040347b19359ada065</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>registerBenchmark</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a8db4befb58f2401dffe5a1218e9ddb3b</anchor>
+      <arglist>(BenchmarkBase *p, const std::string &amp;name)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>hrp2-on-the-ground.cc</name>
+    <path>/home/laledagale/devel/hpp/src/hpp_benchmark/src/</path>
+    <filename>hrp2-on-the-ground_8cc</filename>
+    <includes id="benchmark_8hh" name="benchmark.hh" local="yes" imported="no">benchmark.hh</includes>
+    <class kind="class">hpp::benchmark::hrp2_on_the_ground</class>
+    <namespace>hpp</namespace>
+    <namespace>hpp::benchmark</namespace>
+    <member kind="function">
+      <type>void</type>
+      <name>addLockedJoint</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>af2d936da0fd005667f1d187c705309f9</anchor>
+      <arglist>(ProblemSolverPtr_t ps, const std::string &amp;name, std::vector&lt; value_type &gt; value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>createConstraints</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a1563ce7fe31738d683eb630036a3ce48</anchor>
+      <arglist>(ProblemSolverPtr_t ps, Configuration_t q0, const std::string &amp;leftAnkle, const std::string &amp;rightAnkle)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>REGISTER</name>
+      <anchorfile>hrp2-on-the-ground_8cc.html</anchorfile>
+      <anchor>a297b4942eff1723b4099bd738a2a1264</anchor>
+      <arglist>(::hpp::benchmark::hrp2_on_the_ground, hrp2_on_the_ground)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>pr2-in-iai-kitchen.cc</name>
+    <path>/home/laledagale/devel/hpp/src/hpp_benchmark/src/</path>
+    <filename>pr2-in-iai-kitchen_8cc</filename>
+    <includes id="benchmark_8hh" name="benchmark.hh" local="yes" imported="no">benchmark.hh</includes>
+    <class kind="class">hpp::benchmark::pr2_in_iai_maps</class>
+    <namespace>hpp</namespace>
+    <namespace>hpp::benchmark</namespace>
+    <member kind="function">
+      <type></type>
+      <name>REGISTER</name>
+      <anchorfile>pr2-in-iai-kitchen_8cc.html</anchorfile>
+      <anchor>a1910de05d75d8ff55f833ee105789ede</anchor>
+      <arglist>(::hpp::benchmark::pr2_in_iai_maps, pr2_in_iai_maps)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>romeo-placard.cc</name>
+    <path>/home/laledagale/devel/hpp/src/hpp_benchmark/src/</path>
+    <filename>romeo-placard_8cc</filename>
+    <includes id="benchmark_8hh" name="benchmark.hh" local="yes" imported="no">benchmark.hh</includes>
+    <class kind="class">hpp::benchmark::implicit_versus_explicit</class>
+    <namespace>hpp</namespace>
+    <namespace>hpp::benchmark</namespace>
+    <member kind="function">
+      <type>std::vector&lt; std::string &gt;</type>
+      <name>createLockedJointForHandsOpen</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a56193624c8655057827dab4e7ced2e7c</anchor>
+      <arglist>(ProblemSolverPtr_t ps, const std::string &amp;prefix)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>createConstraints</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a1563ce7fe31738d683eb630036a3ce48</anchor>
+      <arglist>(ProblemSolverPtr_t ps, Configuration_t q0, const std::string &amp;leftAnkle, const std::string &amp;rightAnkle)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>REGISTER</name>
+      <anchorfile>romeo-placard_8cc.html</anchorfile>
+      <anchor>a18b3d19313481ded8776e33b959c657c</anchor>
+      <arglist>(::hpp::benchmark::implicit_versus_explicit, implicit_versus_explicit)</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::map&lt; std::string, double &gt;</type>
+      <name>leftHandClosed</name>
+      <anchorfile>romeo-placard_8cc.html</anchorfile>
+      <anchor>a200fb8e174a1bd2be1840662aecb213f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::map&lt; std::string, double &gt;</type>
+      <name>leftHandOpen</name>
+      <anchorfile>romeo-placard_8cc.html</anchorfile>
+      <anchor>a3f6ea57ed0a5e5004f5efa3216acad46</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::map&lt; std::string, double &gt;</type>
+      <name>rightHandClosed</name>
+      <anchorfile>romeo-placard_8cc.html</anchorfile>
+      <anchor>aaa7055ceb7bc46a63d4b7a333e136e0c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::map&lt; std::string, double &gt;</type>
+      <name>rightHandOpen</name>
+      <anchorfile>romeo-placard_8cc.html</anchorfile>
+      <anchor>ae07b90039415a92ab5158284b116cb7f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>hpp::benchmark::BenchmarkBase</name>
+    <filename>classhpp_1_1benchmark_1_1BenchmarkBase.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>BenchmarkBase</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkBase.html</anchorfile>
+      <anchor>a88b53c5c89c2b21b71d5e38d0537aafa</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~BenchmarkBase</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkBase.html</anchorfile>
+      <anchor>a769e3ddff383c3da4aae0119dd6b2347</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>setup</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkBase.html</anchorfile>
+      <anchor>a0d5d729b9e3b77d0aa7b127bbd2cf4bf</anchor>
+      <arglist>(int Niter)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>clean</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkBase.html</anchorfile>
+      <anchor>a01ba76ac25bb50f5e03bcac8547e1318</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>run</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkBase.html</anchorfile>
+      <anchor>af26193841a77a5bb48d00d36ab25eeac</anchor>
+      <arglist>(int N, const std::string &amp;name)=0</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>value_type</type>
+      <name>time_scale</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkBase.html</anchorfile>
+      <anchor>ab3547d8e6e4078b70eb40a28bb57318f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="friend" protection="protected">
+      <type>friend class</type>
+      <name>BenchmarkRunner</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkBase.html</anchorfile>
+      <anchor>ab658476b13923e114ce2fcf0c0eb2687</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>hpp::benchmark::BenchmarkCase</name>
+    <filename>classhpp_1_1benchmark_1_1BenchmarkCase.html</filename>
+    <base>hpp::benchmark::BenchmarkBase</base>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~BenchmarkCase</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkCase.html</anchorfile>
+      <anchor>a142321c064a4cb0924fbfe675dd29bb8</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>initializeProblem</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkCase.html</anchorfile>
+      <anchor>ac4cb4f2a0ab0d5efff2dd7ee4ad68724</anchor>
+      <arglist>(int iIter)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>solveProblem</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkCase.html</anchorfile>
+      <anchor>a3b4a68c702a592926e43a0192fae81f3</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>saveResolutionResult</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkCase.html</anchorfile>
+      <anchor>a4dc9f39f55c5aa7e1a45a0c36f9ee09a</anchor>
+      <arglist>(results_t &amp;results)=0</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual bool</type>
+      <name>validateSolution</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkCase.html</anchorfile>
+      <anchor>a87c14686ab5152f7e2537c3ca379b3cf</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>hpp::benchmark::BenchmarkNCase</name>
+    <filename>classhpp_1_1benchmark_1_1BenchmarkNCase.html</filename>
+    <base>hpp::benchmark::BenchmarkBase</base>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~BenchmarkNCase</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkNCase.html</anchorfile>
+      <anchor>ab2cbf0436286b783ade4a62fd0ab81c6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual std::vector&lt; std::string &gt;</type>
+      <name>names</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkNCase.html</anchorfile>
+      <anchor>a3a28a1b5601a2d76fc023c93549d7b2a</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>initializeProblem</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkNCase.html</anchorfile>
+      <anchor>a5cec5dba1b40b5ff1c9267c437af7165</anchor>
+      <arglist>(int iIter, int iCase)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>solveProblem</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkNCase.html</anchorfile>
+      <anchor>a5c0ee6c39dde8676e11f6a3427e0cb83</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>saveResolutionResult</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkNCase.html</anchorfile>
+      <anchor>acfc0dd771ba62b1a1812c75e4381ed37</anchor>
+      <arglist>(results_t &amp;results)=0</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual bool</type>
+      <name>validateSolution</name>
+      <anchorfile>classhpp_1_1benchmark_1_1BenchmarkNCase.html</anchorfile>
+      <anchor>a6200964124d5c7112baf1040a35df757</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>hpp::benchmark::hrp2_on_the_ground</name>
+    <filename>classhpp_1_1benchmark_1_1hrp2__on__the__ground.html</filename>
+    <base>hpp::benchmark::BenchmarkCase</base>
+    <member kind="function">
+      <type>void</type>
+      <name>setup</name>
+      <anchorfile>classhpp_1_1benchmark_1_1hrp2__on__the__ground.html</anchorfile>
+      <anchor>a1a6b7eeaf95f3115864ff579bac7c104</anchor>
+      <arglist>(int)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>initializeProblem</name>
+      <anchorfile>classhpp_1_1benchmark_1_1hrp2__on__the__ground.html</anchorfile>
+      <anchor>aad9a208e110cb37664d810860d1271bd</anchor>
+      <arglist>(int)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>solveProblem</name>
+      <anchorfile>classhpp_1_1benchmark_1_1hrp2__on__the__ground.html</anchorfile>
+      <anchor>a5a729d3f7d86b3eb59da80968a0fb212</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>saveResolutionResult</name>
+      <anchorfile>classhpp_1_1benchmark_1_1hrp2__on__the__ground.html</anchorfile>
+      <anchor>a051bb39307903de85b9db2ae401ca503</anchor>
+      <arglist>(results_t &amp;results)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual bool</type>
+      <name>validateSolution</name>
+      <anchorfile>classhpp_1_1benchmark_1_1hrp2__on__the__ground.html</anchorfile>
+      <anchor>a790c4739bc28353309abe5eb7f5edcf9</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>clean</name>
+      <anchorfile>classhpp_1_1benchmark_1_1hrp2__on__the__ground.html</anchorfile>
+      <anchor>ab3c39572860d5bcaa92a05d4e16adea6</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>hpp::benchmark::implicit_versus_explicit</name>
+    <filename>classhpp_1_1benchmark_1_1implicit__versus__explicit.html</filename>
+    <base>hpp::benchmark::BenchmarkNCase</base>
+    <member kind="function">
+      <type>std::vector&lt; std::string &gt;</type>
+      <name>names</name>
+      <anchorfile>classhpp_1_1benchmark_1_1implicit__versus__explicit.html</anchorfile>
+      <anchor>a6b06d98e21f670e13001d185c6d5be16</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setup</name>
+      <anchorfile>classhpp_1_1benchmark_1_1implicit__versus__explicit.html</anchorfile>
+      <anchor>a88bd0f60c3f25c3e8475af388fb4bebb</anchor>
+      <arglist>(int NIter)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>initializeProblem</name>
+      <anchorfile>classhpp_1_1benchmark_1_1implicit__versus__explicit.html</anchorfile>
+      <anchor>af6ef5621f30ba5b291b5b8126a000d07</anchor>
+      <arglist>(int iIter, int iCase)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>solveProblem</name>
+      <anchorfile>classhpp_1_1benchmark_1_1implicit__versus__explicit.html</anchorfile>
+      <anchor>a4c5ac0cd8ee56262c2aa376ab4ebcb7e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>saveResolutionResult</name>
+      <anchorfile>classhpp_1_1benchmark_1_1implicit__versus__explicit.html</anchorfile>
+      <anchor>a71379a313b4460254ec0f40f5d6ad483</anchor>
+      <arglist>(results_t &amp;results)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual bool</type>
+      <name>validateSolution</name>
+      <anchorfile>classhpp_1_1benchmark_1_1implicit__versus__explicit.html</anchorfile>
+      <anchor>a774c631f0541b95f8a4429c55f657bbe</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>clean</name>
+      <anchorfile>classhpp_1_1benchmark_1_1implicit__versus__explicit.html</anchorfile>
+      <anchor>a6eed5fc069361754006cb825c6973a8e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <docanchor file="classhpp_1_1benchmark_1_1implicit__versus__explicit">hpp_benchmark_cpp_implicit_versus_explicit</docanchor>
+  </compound>
+  <compound kind="class">
+    <name>NullStream</name>
+    <filename>classNullStream.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>NullStream</name>
+      <anchorfile>classNullStream.html</anchorfile>
+      <anchor>ab0d616a614956971c8389ddb6367cb51</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>Output</name>
+    <filename>structOutput.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>Output</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a428c663520336477a12f1a33504eb067</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>print_header</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a9ab2d53d1ff25efc0445163e21b3dcdc</anchor>
+      <arglist>(const char *status)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>init_progress_bar</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a41e64ea5d2d4b2f919278a5477bc0ca8</anchor>
+      <arglist>(int N)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pb_ok</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a74d1853e2a6f168d81d179123b8514de</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>pb_bad</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>ae62290b2cbf7fa95ffab4a9b6e97b131</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setOutputDir</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a1828adb02ab06c22dcef34858f9ec440</anchor>
+      <arglist>(const char *dir)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>setupResultFileFromBenchmarkName</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a77a4673be4d6cb5492f8a31df909b33f</anchor>
+      <arglist>(const std::string &amp;benchName)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>setupResultFileFromBenchmarkSubcaseName</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a8458e9e8579eb9c8f1511025ef478afc</anchor>
+      <arglist>(const std::string &amp;benchName, const std::string &amp;caseName)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>writeResult</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a0d4d0ea0f8c94e8b691bac1a43dcf366</anchor>
+      <arglist>(const hpp::benchmark::results_t &amp;results)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>closeResultFile</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a06e05e3539796bb10a8fb287be45619f</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>o</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a3ad5dfccf362eaa23d817ab12278f0c0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>r</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>aaa846b076714c23abb1c2fc85bdfc953</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>outputDir_</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>afb047feaf700952e8a39df2a20d60b2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>today</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>ac9b02d72df80bbc83766578710d36569</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::ofstream</type>
+      <name>outFile_</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>aac383d588dfa80013f77d5e162b5d1f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::ofstream</type>
+      <name>resFile_</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>afc612fb840a78744821ac981dea960fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>NullStream</type>
+      <name>nullStream_</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>ad8a1b0fd4c142a4477a209a67f36821e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::ostream *</type>
+      <name>out_</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>af078c4f82a48e6907192363b56d9d17b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::ostream *</type>
+      <name>res_</name>
+      <anchorfile>structOutput.html</anchorfile>
+      <anchor>a6303b84eeb5e5b07c84dd4e8de361b51</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>hpp::benchmark::pr2_in_iai_maps</name>
+    <filename>classhpp_1_1benchmark_1_1pr2__in__iai__maps.html</filename>
+    <base>hpp::benchmark::BenchmarkCase</base>
+    <member kind="function">
+      <type>void</type>
+      <name>setup</name>
+      <anchorfile>classhpp_1_1benchmark_1_1pr2__in__iai__maps.html</anchorfile>
+      <anchor>a5ee78e039d705362611cf8bc64b7a70e</anchor>
+      <arglist>(int)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>initializeProblem</name>
+      <anchorfile>classhpp_1_1benchmark_1_1pr2__in__iai__maps.html</anchorfile>
+      <anchor>a88c0202206814f4c9195b39a12000415</anchor>
+      <arglist>(int)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>solveProblem</name>
+      <anchorfile>classhpp_1_1benchmark_1_1pr2__in__iai__maps.html</anchorfile>
+      <anchor>a869fe9290b7dcafe3843d845f88de79e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>saveResolutionResult</name>
+      <anchorfile>classhpp_1_1benchmark_1_1pr2__in__iai__maps.html</anchorfile>
+      <anchor>a933e517e915d5dbbc8886d1c2da76876</anchor>
+      <arglist>(results_t &amp;results)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual bool</type>
+      <name>validateSolution</name>
+      <anchorfile>classhpp_1_1benchmark_1_1pr2__in__iai__maps.html</anchorfile>
+      <anchor>a2ebb46bf040ff4fe46933a02d95ced7c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>clean</name>
+      <anchorfile>classhpp_1_1benchmark_1_1pr2__in__iai__maps.html</anchorfile>
+      <anchor>ae58359728d0fb7194109efd0391eeddf</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>hpp</name>
+    <filename>namespacehpp.html</filename>
+    <namespace>hpp::benchmark</namespace>
+  </compound>
+  <compound kind="namespace">
+    <name>hpp::benchmark</name>
+    <filename>namespacehpp_1_1benchmark.html</filename>
+    <class kind="class">hpp::benchmark::BenchmarkBase</class>
+    <class kind="class">hpp::benchmark::BenchmarkCase</class>
+    <class kind="class">hpp::benchmark::BenchmarkNCase</class>
+    <class kind="class">hpp::benchmark::hrp2_on_the_ground</class>
+    <class kind="class">hpp::benchmark::implicit_versus_explicit</class>
+    <class kind="class">hpp::benchmark::pr2_in_iai_maps</class>
+    <member kind="typedef">
+      <type>double</type>
+      <name>value_type</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a730b4c703dec218d1542542589601c91</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::vector&lt; value_type &gt;</type>
+      <name>result_t</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>add70145786a45fc34c5d5054311781a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::map&lt; std::string, result_t &gt;</type>
+      <name>results_t</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a1bf955b70dcea8040347b19359ada065</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>registerBenchmark</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a8db4befb58f2401dffe5a1218e9ddb3b</anchor>
+      <arglist>(BenchmarkBase *p, const std::string &amp;name)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>stats</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>aacaa3d0ee2a3ded3b9f524c4fecab2d3</anchor>
+      <arglist>(result_t values, value_type &amp;mean, value_type &amp;std_dev)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>addLockedJoint</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>af2d936da0fd005667f1d187c705309f9</anchor>
+      <arglist>(ProblemSolverPtr_t ps, const std::string &amp;name, std::vector&lt; value_type &gt; value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>createConstraints</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a1563ce7fe31738d683eb630036a3ce48</anchor>
+      <arglist>(ProblemSolverPtr_t ps, Configuration_t q0, const std::string &amp;leftAnkle, const std::string &amp;rightAnkle)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; std::string &gt;</type>
+      <name>createLockedJointForHandsOpen</name>
+      <anchorfile>namespacehpp_1_1benchmark.html</anchorfile>
+      <anchor>a56193624c8655057827dab4e7ced2e7c</anchor>
+      <arglist>(ProblemSolverPtr_t ps, const std::string &amp;prefix)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>hpp_benchmark_cpp</name>
+    <title>C++ benchmarks</title>
+    <filename>group__hpp__benchmark__cpp.html</filename>
+    <class kind="class">hpp::benchmark::hrp2_on_the_ground</class>
+    <class kind="class">hpp::benchmark::pr2_in_iai_maps</class>
+    <class kind="class">hpp::benchmark::implicit_versus_explicit</class>
+  </compound>
+  <compound kind="group">
+    <name>python_benchmark_cpp</name>
+    <title>Python benchmarks</title>
+    <filename>group__python__benchmark__cpp.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>hpp_benchmarks_missing</name>
+    <title>Missing benchmarks</title>
+    <filename>hpp_benchmarks_missing</filename>
+  </compound>
+  <compound kind="page">
+    <name>index</name>
+    <title>Benchmarks for HPP</title>
+    <filename>index</filename>
+    <docanchor file="index" title="C++ benchmark results">hpp_benchmark_cpp_sec</docanchor>
+    <docanchor file="index">hpp_benchmark_cpp_pr2_in_iai_maps</docanchor>
+    <docanchor file="index">hpp_benchmark_cpp_hrp2_on_the_ground</docanchor>
+    <docanchor file="index">hpp_benchmark_cpp_implicit_versus_explicit_notice</docanchor>
+    <docanchor file="index" title="Python benchmark results">hpp_benchmark_python_sec</docanchor>
+    <docanchor file="index">hpp_benchmark_python_construction_set</docanchor>
+    <docanchor file="index">hpp_benchmark_python_pr2_manipulation_kitchen</docanchor>
+    <docanchor file="index">hpp_benchmark_python_pr2_manipulation_two_hand</docanchor>
+    <docanchor file="index">hpp_benchmark_python_ur3_spheres</docanchor>
+    <docanchor file="index">hpp_benchmark_python_baxter_manipulation</docanchor>
+  </compound>
+</tagfile>
