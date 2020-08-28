@@ -17,7 +17,7 @@ To save the benchmarks, commit the output directory.
 
 ## Running the Python benchmarks
 
- `**./generate_benchmark.py**  new_directory_name`
+ <p>`<strong>./generate_benchmark.py </strong>  new_directory_name`</p>
 
 The format's name of the argument `new_directory_name` is: `year-month-day`
 This program creates copy of the directory `future` into new directory which contains the benchmarks.
@@ -26,4 +26,4 @@ In each sub-directories of this copy of future, it will run one after another th
 
 When the execution of a script is done, the python's window is closed and the output will be written in a file named `benchmark` in the directory corresponding to the robot's name, next to the script. The `hppcorbaserver` window still open.
 
-To execute the next script you have to close this last window: `hppcorbaserver`. Two new windows automatically appear (hppcorbaserver and python) which means that a new script is running. 
+To execute the next script you have to close this window. Two new windows automatically appear (hppcorbaserver and python) which means that a new script is running. 
