@@ -17,7 +17,7 @@ To save the benchmarks, commit the output directory.
 
 ## Running the Python benchmarks
 
- <p>`<strong>./generate_benchmark.py </strong>  new_directory_name`</p>
+ <p> `<strong>./generate_benchmark.py </strong>    new_directory_name`</p>
 
 The format's name of the argument `new_directory_name` is: `year-month-day`
 This program creates copy of the directory `future` into new directory which contains the benchmarks.
