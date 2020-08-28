@@ -1,0 +1,72 @@
+0:00:11.280939
+Number nodes: 87
+0:00:21.151999
+Number nodes: 85
+0:00:09.964655
+Number nodes: 69
+0:00:14.898591
+Number nodes: 110
+0:00:34.942276
+Number nodes: 272
+0:00:27.265819
+Number nodes: 220
+0:00:10.969332
+Number nodes: 69
+0:00:17.096455
+Number nodes: 120
+0:00:13.755750
+Number nodes: 103
+0:00:18.701836
+Number nodes: 110
+0:00:10.475617
+Number nodes: 72
+0:00:29.746501
+Number nodes: 226
+0:00:10.775419
+Number nodes: 79
+0:00:17.230414
+Number nodes: 150
+0:00:25.480112
+Number nodes: 212
+0:00:27.135463
+Number nodes: 217
+0:00:06.733359
+Number nodes: 63
+0:00:28.109774
+Number nodes: 221
+0:00:24.790291
+Number nodes: 158
+0:00:04.481672
+Number nodes: 27
+Number of successes: 20
+Average time: 18.2493137
+Average number nodes: 133.5
+
+---Path 0---
+There is a collision: 
+Joint box/root_joint, rank: 1, value out of range: -2.69956 not in [-5.2, -2.7]
+
+---Path 1---
+There is a collision: 
+Joint box/root_joint, rank: 1, value out of range: -5.20004 not in [-5.2, -2.7]
+
+---Path 2---
+There is a collision: 
+Collision between object pr2/l_upper_arm_link_0 and kitchen_area/pancake_table_table_top_link_0
+
+---Path 3---
+There is a collision: 
+Joint box/root_joint, rank: 1, value out of range: -5.20003 not in [-5.2, -2.7]
+
+---Path 4---
+There is a collision: 
+Collision between object pr2/l_gripper_r_finger_tip_link_0 and kitchen_area/pancake_table_third_leg_link_0
+
+---Path 5---
+There is a collision: 
+Collision between object pr2/r_gripper_r_finger_link_0 and kitchen_area/pancake_table_table_top_link_0
+
+---Path 6---
+No collision or discontinuity in this path
+
+---Path 7---

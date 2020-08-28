@@ -1,0 +1,105 @@
+0:00:01.769647
+Number nodes: 69
+0:00:02.293279
+Number nodes: 80
+0:00:00.387955
+Number nodes: 14
+0:00:03.302466
+Number nodes: 110
+0:00:03.696756
+Number nodes: 140
+0:00:03.884741
+Number nodes: 149
+0:00:06.030399
+Number nodes: 220
+0:00:07.463151
+Number nodes: 273
+0:00:02.237677
+Number nodes: 75
+0:00:02.391847
+Number nodes: 88
+0:00:02.792294
+Number nodes: 99
+0:00:02.667755
+Number nodes: 91
+0:00:11.307839
+Number nodes: 393
+0:00:03.828435
+Number nodes: 164
+0:00:03.712895
+Number nodes: 138
+0:00:06.760416
+Number nodes: 259
+0:00:02.753980
+Number nodes: 95
+0:00:01.149098
+Number nodes: 32
+0:00:00.469145
+Number nodes: 16
+0:00:01.822086
+Number nodes: 58
+
+---Path 0---
+There is a collision: 
+Collision between object baxter/r_gripper_r_finger_tip_0 and box1/base_link_0
+
+---Path 1---
+No collision or discontinuity in this path
+
+---Path 2---
+No collision or discontinuity in this path
+
+---Path 3---
+There is a collision: 
+Collision between object baxter/l_gripper_r_finger_0 and box0/base_link_0
+
+---Path 4---
+No collision or discontinuity in this path
+
+---Path 5---
+No collision or discontinuity in this path
+
+---Path 6---
+No collision or discontinuity in this path
+
+---Path 7---
+No collision or discontinuity in this path
+
+---Path 8---
+There is a collision: 
+Collision between object baxter/l_gripper_r_finger_tip_0 and box1/base_link_0
+
+---Path 9---
+No collision or discontinuity in this path
+
+---Path 10---
+No collision or discontinuity in this path
+
+---Path 11---
+No collision or discontinuity in this path
+
+---Path 12---
+No collision or discontinuity in this path
+
+---Path 13---
+No collision or discontinuity in this path
+
+---Path 14---
+No collision or discontinuity in this path
+
+---Path 15---
+No collision or discontinuity in this path
+
+---Path 16---
+No collision or discontinuity in this path
+
+---Path 17---
+No collision or discontinuity in this path
+
+---Path 18---
+No collision or discontinuity in this path
+
+---Path 19---
+No collision or discontinuity in this path
+Average time: 3.53609305
+Average number nodes: 128.15
