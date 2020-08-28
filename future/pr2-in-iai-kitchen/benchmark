@@ -1,0 +1,1 @@
+'Failed to narrow client at corbaloc:iiop:localhost:13331/hpp-corbaserver into hpp_idl.hpp.Tools: CORBA.TRANSIENT(omniORB.TRANSIENT_ConnectFailed, CORBA.COMPLETED_NO)'

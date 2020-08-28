@@ -17,9 +17,13 @@ To save the benchmarks, commit the output directory.
 
 ## Running the Python benchmarks
 
-Start `hppcorbaserver` in a terminal. In another terminal, go in each sub-directories of
-`future` and run the python script `script.py`.
+ `**./generate_benchmark.py**  new_directory_name`
 
-### Save the results
-Save the output of each script.py in a file called `benchmark` next to the script.
-Then copy the directory `future` to `year-month-day` and commit this new directory.
+The format's name of the argument `new_directory_name` is: `year-month-day`
+This program creates copy of the directory `future` into new directory which contains the benchmarks.
+
+In each sub-directories of this copy of future, it will run one after another the python scripts script.py. For each script 2 windows will be opended: a window with `hppcorbaserver` and another window where the `script.py` is running. So a script is running only if these two windows are opended. 
+
+When the execution of a script is done, the python's window is closed and the output will be written in a file named `benchmark` in the directory corresponding to the robot's name, next to the script. The `hppcorbaserver` window still open.
+
+To execute the next script you have to close this last window: `hppcorbaserver`. Two new windows automatically appear (hppcorbaserver and python) which means that a new script is running. 

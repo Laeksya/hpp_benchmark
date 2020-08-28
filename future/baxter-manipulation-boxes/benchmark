@@ -1,0 +1,84 @@
+0:00:02.296213
+Number nodes: 79
+0:00:05.324343
+Number nodes: 197
+0:00:01.659183
+Number nodes: 66
+0:00:04.230350
+Number nodes: 163
+0:00:02.269592
+Number nodes: 88
+0:00:03.014098
+Number nodes: 105
+0:00:02.489566
+Number nodes: 79
+0:00:03.990832
+Number nodes: 154
+0:00:08.591375
+Number nodes: 278
+0:00:03.264199
+Number nodes: 116
+0:00:04.301767
+Number nodes: 165
+0:00:03.161680
+Number nodes: 107
+0:00:03.614730
+Number nodes: 129
+0:00:02.987647
+Number nodes: 116
+0:00:02.596664
+Number nodes: 91
+0:00:01.784405
+Number nodes: 74
+0:00:02.822207
+Number nodes: 111
+0:00:02.183902
+Number nodes: 75
+0:00:02.388705
+Number nodes: 93
+0:00:04.130952
+Number nodes: 143
+
+---Path 0---
+No collision or discontinuity in this path
+
+---Path 1---
+There is a collision: 
+Collision between object baxter/l_gripper_l_finger_tip_0 and baxter/right_upper_forearm_visual_0
+
+---Path 2---
+No collision or discontinuity in this path
+
+---Path 3---
+No collision or discontinuity in this path
+
+---Path 4---
+No collision or discontinuity in this path
+
+---Path 5---
+There is a collision: 
+Collision between object baxter/torso_0 and baxter/l_gripper_r_finger_tip_0
+
+---Path 6---
+No collision or discontinuity in this path
+
+---Path 7---
+No collision or discontinuity in this path
+
+---Path 8---
+No collision or discontinuity in this path
+
+---Path 9---
+No collision or discontinuity in this path
+
+---Path 10---
+No collision or discontinuity in this path
+
+---Path 11---
+There is a collision: 
+Collision between object baxter/l_gripper_r_finger_tip_0 and box0/base_link_0
+
+---Path 12---
+No collision or discontinuity in this path
+
+---Path 13---
